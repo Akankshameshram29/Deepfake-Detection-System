@@ -1,0 +1,10 @@
+*.h5
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+*.pkl
+dataset/
+*.ini
+*.h5
