@@ -74,8 +74,8 @@ st.markdown('<div class="subtitle">Upload an image or video to check if it\'s AI
 
 # ---------- Load Model ----------
 model_path = "my_deepfake_detector.h5"
-if os.path.exists(model_path):
-    model = load_model(model_path)
+if os.path.exists("my_deepfake_detector.h5"):
+    model = load_model("my_deepfake_detector.h5")
     st.success("✅ Deepfake Detection Model Loaded.")
 else:
     st.error("❌ Model not found. Please check the model path.")
